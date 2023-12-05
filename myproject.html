@@ -4,48 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/sytle.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    
     <div class="container">
-        
         <div class="header">
             <img src="assets/img/logo.jpg" alt= "sekil tapilmadi"/>
-            <p>Singup to create an account</p>
-            <div class="second">
-                Already have an account? <span style="color: blueviolet;">Login </span>
+            <div class="title">Singup to create an account</div>
+            <div class="exist-acc">
+                Already have an account? <a href="index.html" class="login-nav">Login </a>
             </div>
             <form action="./index.html">
                 <div class="input">
-                    <div class="username">
-                        <input type="text" placeholder="Username" name="username">
+                    <div class="form-control">
+                        <input class="form-input" type="text" placeholder="Username" name="username">
                     </div>
-
-                    <div class="email">
-                        <input type="email" placeholder="Email address" name="email">
+                    <div class="form-control">
+                        <input class="form-input" type="email" placeholder="Email address" name="email">
                     </div>
-
-                    <div class="password">
-                        <input type="password" placeholder="Password" name="password">
+                    <div class="form-control">
+                        <input class="form-input" type="password" placeholder="Password" name="password">
                     </div>
-
-                    <div class="password">
-                        <input type="password" placeholder="Confirm Password" name="password">
+                    <div class="form-control">
+                        <input class="form-input" type="password" placeholder="Confirm Password" name="password">
                     </div>
                 </div>
-
                 <div class="submit">
-                    <button type="submit"> Singup</button>
+                    <button type="submit">Sign up</button>
                 </div>
-
             </form>
         </div>
     </div>
-
-
-
 </body>
 
 </html>
