@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    padding: 8px;
+    margin: 8px;
+    width: 315px;
+    border: #ffffff;
+    border-style: groove;
+    background: #ffffff;
+    border-radius: 5%;
+}
+
+.container .header p {
+    font-size: 22px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.second {
+    text-align: center;
+}
+
+.username {
+    margin-top: 30px;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit button {
+    width: 335px;
+    height: 28px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+.header img {
+    width: 100px;
+    height: 60px;
+    margin-left: 34%;
+}
